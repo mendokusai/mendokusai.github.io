@@ -1,0 +1,5 @@
+<h1>Post Index</h1>
+
+<% @posts.each do |post| %>
+	<%= link_to post.title, post %>
+<% end %>
