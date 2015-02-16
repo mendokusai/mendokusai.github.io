@@ -60,25 +60,40 @@
 <div id='projects' name='#projects'>
 <h3>Projects</h3>
 
+<h4>Javascript Roguelike</h4>
+
 <img src="assets/images/roguelike.gif" width="80%">
 
 <h4><a href="http://roguelike.website">Roguelike.website</a></h4>
 
-<p>Built with an desire to build a 100% Javascript HTML5 canvas game, RogueCity is roguelike creation made using the <a href="http://ondras.github.io/rot.js/hp/">ROT.js library</a> and Dominic Roy's <a href="http://www.codingcookies.com/">tutorial</a>.  Making a full roguelike game was a challenge and the end result is 2500+ lines of javascript written in only five days. Future plans are to utilize the Node/Express.js back-end to realize a multi-player version using websockets.io!
+<p>Built with an desire to build a 100% Javascript HTML5 canvas game, RogueCity is <a href="http://en.wikipedia.org/wiki/Roguelike">roguelike</a> creation made using the <a href="http://ondras.github.io/rot.js/hp/">ROT.js library</a> and Dominic Roy's <a href="http://www.codingcookies.com/">tutorial</a>.  Making a full roguelike game was a challenge and the end result is 2500+ lines of javascript written in only five days. Future plans are to utilize the Node/Express.js back-end to realize a multi-player version using websockets.io!
 <div class='break'></div>
+
+<h4>Yaps.co</h4>
 
 <img src="assets/images/yapsCo.gif" width="80%">
 
-<h4><a href="http://yaps.co">Yaps.co</a></h4>
-
-<p>Yaps.co was built with two interests: make a multi-person chat using websockets and to experiment with the Reddit API and bring chat to the Reddit experience.</p>
+<p><strong><a href="http://yaps.co">Yaps.co</a></strong> was built with two interests: make a multi-person chat using websockets and to experiment with the Reddit API and bring chat to the Reddit experience.</p>
 <p>Initially the plan was to use a Rails backend, but we quickly realized that Node.js was the better choice. (20 lines of code, FTW!) Still, not wanting to delve completely, we maintained a Rails backend <strong>as well</strong> and were introduced to the fantastic world of <a href="http://enable-cors.org/">CORS</a> and the challenges of creating cross-platform bridges. 
+<div class='break'></div>
 
 <h4>Parks & Recommendations</h4>
 <img src="http://lorempixel.com/400/300/nature">
+<p><strong>Parks & Recommendations</strong> was created out of a desire to have a listing of playgrounds (in the Canberra Area) to search for playgrounds by proximity to users, equipment, and age-appropriateness.</p> 
+<p>Users can leave comments and would be able to alert users and authorities to damage with the equipment.</p>
+
+<div class='break'></div>
 
 <h4>BeerScooter</h4>
-<img src="http://lorempixel.com/400/300/nightlife	">
+
+<img src="assets/images/beerscooter.gif" width="70%">
+
+<p><strong><a href="http://beerscooter.com">BeerScooter.com</a></strong> was created to create a beer-searching database based on proximity using user's mobile for location data.</p>
+
+<p>The greatest challenge of BeerScooter was managing the database tables for Bars, Beers, Users, Checkins and various through-tables.</p>
+
+<p>As we used Heroku to host our rails app, we ran into an issue with location-requests (as thousands of Heroku apps do the same) and the <a href="https://github.com/jvillarejo/spyme">spyme gem</a>, along with <a href="http://www.rubygeocoder.com/">geocoder</a>, helped us to get the user's location data despite server limits.</p>
+
 </div>
 <div id='contact' name='#contact'>
 <h3>Contact</h3>
