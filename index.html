@@ -24,7 +24,14 @@
 					 <a href="https://twitter.com/ryapauley"><i class="fa fa-twitter fa-2x"></i></a> <a href="http://www.reddit.com/r/bicycletouring"><i class="fa fa-bicycle fa-2x"></i></a>
 			 </li>
 				<li><a href='#about' id='about_link'>About</a></li>
-				<li><a href='#projects' id='proj_link'>Projects</a></li>
+				<li><a href='#projects' id='proj_link'>Projects</a>
+					<ul id='sub_projects'>
+						<li><a href='#rogue'>Roguelike</a></li>
+						<li><a href='#yaps'>Yaps.co</a></li>
+						<li><a href='#parks'>Parks & Rec</a></li>
+						<li><a href='#beer'>BeerScooter</a></li>
+					</ul>
+				</li>
 				<li><a href='#contact' id='cont_link'>Contact</a></li>
 			</ul>
 					
@@ -58,7 +65,10 @@
 <p>I grew up in a California print shop and have been proficient in Adobe's core suite since 1994. I have freelanced digital design for more than 15 years. For other fine examples of work in print or marketing, be sure to check out <a href="http://ryanpauley.com" title="A place, like Disneyland, but not.">ryanpauley.com</a></p>
 </div>
 <div id='projects' name='#projects'>
+
 <h3>Projects</h3>
+
+<div id='rogue' name='#rogue'>
 
 <h4>Javascript Roguelike</h4>
 
@@ -66,23 +76,34 @@
 
 <h4><a href="http://roguelike.website">Roguelike.website</a></h4>
 
-<p>Built with an desire to build a 100% Javascript HTML5 canvas game, RogueCity is <a href="http://en.wikipedia.org/wiki/Roguelike">roguelike</a> creation made using the <a href="http://ondras.github.io/rot.js/hp/">ROT.js library</a> and Dominic Roy's <a href="http://www.codingcookies.com/">tutorial</a>.  Making a full roguelike game was a challenge and the end result is 2500+ lines of javascript written in only five days. Future plans are to utilize the Node/Express.js back-end to realize a multi-player version using websockets.io!
+<p>Built with an desire to build a 100% Javascript HTML5 canvas game, RogueCity is <a href="http://en.wikipedia.org/wiki/Roguelike">roguelike</a> creation made using the <a href="http://ondras.github.io/rot.js/hp/">ROT.js library</a> and Dominic Roy's <a href="http://www.codingcookies.com/">tutorial</a>.  Making a full roguelike game was a challenge and the end result is 2500+ lines of javascript written in only five days. Future plans are to utilize the Node/Express.js back-end to realize a multi-player version using websockets.io!</p>
+</div>
+
 <div class='break'></div>
 
+<div id='yaps' name='#yaps'>
 <h4>Yaps.co</h4>
 
 <img src="assets/images/yapsCo.gif" width="80%">
 
 <p><strong><a href="http://yaps.co">Yaps.co</a></strong> was built with two interests: make a multi-person chat using websockets and to experiment with the Reddit API and bring chat to the Reddit experience.</p>
-<p>Initially the plan was to use a Rails backend, but we quickly realized that Node.js was the better choice. (20 lines of code, FTW!) Still, not wanting to delve completely, we maintained a Rails backend <strong>as well</strong> and were introduced to the fantastic world of <a href="http://enable-cors.org/">CORS</a> and the challenges of creating cross-platform bridges. 
+<p>Initially the plan was to use a Rails backend, but we quickly realized that Node.js was the better choice. (20 lines of code, FTW!) Still, not wanting to delve completely, we maintained a Rails backend <strong>as well</strong> and were introduced to the fantastic world of <a href="http://enable-cors.org/">CORS</a> and the challenges of creating cross-platform bridges. </p>
+</div>
+
 <div class='break'></div>
 
+<div id='parks' name='#parks'>
+
 <h4>Parks & Recommendations</h4>
+
 <img src="http://lorempixel.com/400/300/nature">
 <p><strong>Parks & Recommendations</strong> was created out of a desire to have a listing of playgrounds (in the Canberra Area) to search for playgrounds by proximity to users, equipment, and age-appropriateness.</p> 
 <p>Users can leave comments and would be able to alert users and authorities to damage with the equipment.</p>
+</div>
 
 <div class='break'></div>
+
+<div id='beer' name='#beer'>
 
 <h4>BeerScooter</h4>
 
@@ -93,6 +114,7 @@
 <p>The greatest challenge of BeerScooter was managing the database tables for Bars, Beers, Users, Checkins and various through-tables.</p>
 
 <p>As we used Heroku to host our rails app, we ran into an issue with location-requests (as thousands of Heroku apps do the same) and the <a href="https://github.com/jvillarejo/spyme">spyme gem</a>, along with <a href="http://www.rubygeocoder.com/">geocoder</a>, helped us to get the user's location data despite server limits.</p>
+</div>
 
 </div>
 <div id='contact' name='#contact'>

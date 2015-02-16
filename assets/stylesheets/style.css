@@ -18,18 +18,28 @@
           transform: rotate(360deg);
 }
 
-
 .break {
 	height: 40px;
 }
+
+header ul ul{
+	margin-left: -42px;
+	font-size: 66%;
+}
+
+header ul ul li {
+	padding-bottom: -10px;
+}
+
+
  	header {
 	background: #ff04b5;	
 	position: fixed;
 	top: -5px;
 	z-index: 1;
-	height: 100%;
+	height: 120%;
 	left: -5px;
-	width: 25%;
+	width: 18em;
 	margin: 0px auto;
 	float: left;
 	}
@@ -48,7 +58,7 @@
 
 	header h1 {
 		padding-top: 24px;
-		padding-left: 15px;
+		padding-left: 29px;
 		font-size: 2.5em;
 	}
 
@@ -69,7 +79,7 @@
 	}
 
 	header li {
-		padding-top: 10px;
+		padding-top: 4px;
 	}
 
 	body {

@@ -6,11 +6,15 @@ $(document).ready(function(){
 	$('#about').fadeIn('slow');
 	$('#projects').hide();
 	$('#contact').hide();
+	$('#sub_projects').hide();
 
 	$('#about_link').on('click', function(){
 		if (last) {
+			if (last.attr('id') == 'projects') {
+				$('#sub_projects').hide();
+			}
 			last.slideUp(400).fadeOut().delay(1000);
-		} else if (last === '#about'){
+		} else if (last === 'about'){
 			console.log(last);
 		}
 		$('#about').slideDown(400).fadeIn('slow');
@@ -24,12 +28,16 @@ $(document).ready(function(){
 			console.log(last);
 		}
 		$('#projects').slideDown(400).fadeIn('slow');
+		$('#sub_projects').fadeIn('fast');
 		last = $('#projects');
 
 	});
 
 	$('#cont_link').on('click', function(){
 		if (last) {
+			if (last.attr('id') == 'projects') {
+				$('#sub_projects').hide();
+			}
 			last.slideUp(400).fadeOut().delay(1000);
 		} else if (last === '#contact'){
 			console.log(last);
