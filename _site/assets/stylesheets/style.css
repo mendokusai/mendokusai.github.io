@@ -1,0 +1,163 @@
+/*@media (max-width: 750px) {*/
+ 	
+/*spin*/
+.spin {
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+ 
+.spin:hover {
+  border-radius: 50%;
+  -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+       -o-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.break {
+	height: 40px;
+}
+
+header ul ul{
+	margin-left: -42px;
+	font-size: 66%;
+}
+
+header ul ul li {
+	padding-bottom: -10px;
+}
+
+
+ 	header {
+	background: #ff04b5;	
+	position: fixed;
+	top: -5px;
+	z-index: 1;
+	height: 120%;
+	left: -5px;
+	width: 18em;
+	margin: 0px auto;
+	float: left;
+	}
+
+
+	header a:hover {
+		color: #22ffeb ;
+/*#ff9903	*/
+}
+
+	header a {
+		border-top: 2em;
+		color: #ffe500;
+		text-decoration: none;
+	}
+
+	header h1 {
+		padding-top: 24px;
+		padding-left: 29px;
+		font-size: 2.5em;
+	}
+
+	header img {
+		padding-top: 25px;
+		width: 120px;
+	}
+
+	header img:hover {
+		width: 90px;
+		padding-bottom: 48px;
+	}
+
+	header ul {
+		padding-left: 55px;
+		font-family: 'Press Start 2P', sans-serif;
+		list-style: none;
+	}
+
+	header li {
+		padding-top: 4px;
+	}
+
+	body {
+		background: #ffeafb;
+		/*background: #ff04b5;*/
+	}
+
+	.center {
+		display: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	}
+
+	main {
+		padding-left: 25%;
+		float: left;
+		width: 75%;
+		padding-top: 100px;
+	}
+
+	h1 {
+		font-family: 'Press Start 2P', sans-serif;
+		color: #ffe500;
+		font-size: 1.4em;
+	}
+
+	#icons {
+		color: #ffe500;
+		margin-left: -20px;
+	}
+	 #links{
+	 	padding-top: 28px;
+  }
+
+
+@media (max-width: 400px){
+	header {
+	background: #ff04b5;	
+	position: fixed;
+	top: -5px;
+	z-index: 1;
+	height: 90px;
+	left: -5px;
+	width: 105%;
+	margin: 0px auto;
+	float: left;
+}
+
+header a {
+	border-top: 2em;
+	color: #ffe500;
+}
+
+header h1 {
+	padding-top: 24px;
+	font-size: 1.7em;
+}
+
+header img {
+	padding-top: 12px;
+}
+
+body {
+	background: #ffeafb;
+	/*background: #ff04b5;*/
+}
+
+main {
+	padding-top: 100px;
+}
+
+h1 {
+	font-family: 'Press Start 2P', sans-serif;
+	color: #ffe500;
+	font-size: 1.4em;
+}
+ #links{
+ 	padding-top: 28px;
+ }
+}
