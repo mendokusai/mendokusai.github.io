@@ -420,8 +420,8 @@
 	var React = __webpack_require__(8);
 	var ReactDOM = __webpack_require__(40);
 
-	var Piece = React.createClass({
-	  displayName: 'Piece',
+	var Page = React.createClass({
+	  displayName: 'Page',
 
 	  getTextStyle: function getTextStyle() {
 	    return {
@@ -438,6 +438,7 @@
 	  render: function render() {
 	    var textStyle = this.getTextStyle();
 	    var imageSelection = this.getImageSelection();
+
 	    return React.createElement(
 	      'div',
 	      { className: 'container come-back-later' },
@@ -451,7 +452,7 @@
 	  }
 	});
 
-	ReactDOM.render(React.createElement(Piece, null), document.getElementById('attachment'));
+	ReactDOM.render(React.createElement(Page, null), document.getElementById('attachment'));
 
 /***/ },
 /* 8 */
