@@ -1,0 +1,33 @@
+{
+  "name": "mendokusai.github.io",
+  "version": "1.0.0",
+  "description": "github page",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mendokusai/mendokusai.github.io.git"
+  },
+  "keywords": [
+    "gh",
+    "pages"
+  ],
+  "author": "ryan pauley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mendokusai/mendokusai.github.io/issues"
+  },
+  "homepage": "https://github.com/mendokusai/mendokusai.github.io#readme",
+  "devDependencies": {
+    "babel-core": "^6.9.0",
+    "babel-loader": "^6.2.4",
+    "css-loader": "^0.23.1",
+    "express": "^4.13.4",
+    "nodemon": "^1.9.2",
+    "react": "^15.0.2",
+    "react-dom": "^15.0.2",
+    "webpack": "^1.13.0"
+  }
+}
