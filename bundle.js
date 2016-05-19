@@ -430,9 +430,10 @@
 	  },
 
 	  getImageSelection: function getImageSelection() {
-	    var images = ["./images/rainy_day.gif", "./images/sunset.gif", "./images/coding.gif", "./images/servers.gif", "./images/waiting.gif", "./images/fireflies.gif"];
+	    var url_path = "./public/images/";
+	    var images = ["rainy_day.gif", "sunset.gif", "coding.gif", "servers.gif", "waiting.gif", "fireflies.gif"];
 	    var selection = Math.floor(Math.random() * images.length);
-	    return images[selection];
+	    return url_path + images[selection];
 	  },
 
 	  render: function render() {
