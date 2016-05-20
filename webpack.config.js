@@ -7,7 +7,7 @@ module.exports = {
     path: './src/webpack.js'
   },
   output: {
-    path: './public',
+    path: './',
     filename: 'bundle.js'
   },
   module: {

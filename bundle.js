@@ -471,7 +471,7 @@
 	  },
 
 	  getImageSelection: function getImageSelection() {
-	    var url_path = "./images/";
+	    var url_path = "./public/images/";
 	    var images = ["rainy_day.gif", "sunset.gif", "coding.gif", "servers.gif", "waiting.gif", "fireflies.gif"];
 	    var selection = Math.floor(Math.random() * images.length);
 	    return url_path + images[selection];
