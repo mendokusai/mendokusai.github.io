@@ -7,3 +7,15 @@ body {
   padding-top: 100px;
   margin: 0 auto;
 }
+
+.left-text {
+  padding-right: 25px;
+}
+
+.right-text {
+  padding-left: 25px;
+}
+
+.center-text {
+  text-align: center;
+}

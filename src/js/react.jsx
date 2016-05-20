@@ -9,7 +9,7 @@ var Page = React.createClass({
   },
 
   getImageSelection: function() {
-    var url_path = "./public/images/";
+    var url_path = "./images/";
     var images = [
       "rainy_day.gif",
       "sunset.gif",
@@ -29,7 +29,17 @@ var Page = React.createClass({
     return (
       <div className="container come-back-later">
         <img src={imageSelection}></img>
-        <h1 style={textStyle}>Work in Progress</h1>
+        <div className="container center-text">
+          <h1 style={textStyle}>Work in Progress</h1>
+          <span>
+            <a href="http://twitter.com/ryapauley"
+               className="left-text">@ryapauley</a>
+            <a href="mailto:info@ryanpauley.com?Subject=In%20yer%20base%20killin%20yer%20doods">
+              info@ryapauley.com</a>
+            <a href="http://github.com/mendokusai"
+               className="right-text">mendokusai</a> (gh)
+         </span>
+       </div>
       </div>
     );
   }
