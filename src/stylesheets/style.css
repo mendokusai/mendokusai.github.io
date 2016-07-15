@@ -2,10 +2,22 @@ body {
   background: rgb(197, 212, 203);
 }
 
-.come-back-later {
-  width: 500px;
+.the-business {
+  width: 600px;
   padding-top: 100px;
   margin: 0 auto;
+}
+
+.gh-projects {
+  padding: 10px 107px;
+}
+
+.list {
+  line-height: 25px;
+  list-style: none;
+  a {
+    text-decoration: none;
+  }
 }
 
 .left-text {
@@ -19,3 +31,7 @@ body {
 .center-text {
   text-align: center;
 }
+
+/*.gh-logo {
+  background: url('./public/images/gh-logo.png');
+}*/
