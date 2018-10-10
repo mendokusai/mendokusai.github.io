@@ -46,7 +46,7 @@ const Page = React.createClass({
                   startDelay={0}
                   avgTypingDelay={80}
                   stdTypingDelay={40}>
-            <h1 style={textStyle}>🍍 Hi, I'm Ryan.🍍</h1>
+            <h1 style={textStyle}>🍍 Ryan Pauley 🍍</h1>
             <h2>-Internet::Applications-</h2>
             <span>
               <a href="http://twitter.com/ryapauley"
@@ -59,27 +59,7 @@ const Page = React.createClass({
              </span>
           </Typist>
         </div>
-        <div className="container gh-projects">
-          <Typist className="text"
-            cursor={cursorTwo}
-            startDelay={8000}
-            avgTypingDelay={60}
-            stdTypingDelay={62}>
-            <h3>Projects</h3>
-            <ul className="list">
-              <li>
-                <p><a href="http://yaps.co/">Yaps</a>: A Reddit-integrated Chat-app</p>
-              </li>
-              <li>
-                <p><a href="https://github.com/mendokusai/deepdreamin">DeepDreamin</a>: A computery Image Processor</p>
-              </li>
-              <li>
-                <p><a href="http://roguecity.herokuapp.com/">RogueCity</a>: A classic game of survival</p>
-              </li>
-            </ul>
-          </Typist>
-        </div>
-      </div>
+       </div>
     );
   }
 });
